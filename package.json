@@ -71,7 +71,6 @@
     "css-to-react-native": "^2.2.2",
     "memoize-one": "^4.0.0",
     "prop-types": "^15.5.4",
-    "react-is": "^16.6.0",
     "stylis": "^3.5.0",
     "stylis-rule-sheet": "^0.0.10",
     "supports-color": "^5.5.0"
@@ -117,6 +116,7 @@
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-frame-component": "^4.0.2",
+    "react-is": "^16.6.0",
     "react-native": "^0.56.0",
     "react-primitives": "^0.6.1",
     "react-test-renderer": "^16.6.0",
@@ -133,7 +133,8 @@
   },
   "peerDependencies": {
     "react": ">= 16.3.0",
-    "react-dom": ">= 16.3.0"
+    "react-dom": ">= 16.3.0",
+    "react-is": ">= 16.6.0"
   },
   "jest": {
     "globals": {
